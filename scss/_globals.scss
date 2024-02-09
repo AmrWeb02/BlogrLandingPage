@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Ubuntu, "sans-serif";
+    background: hsl(0, 26%, 96%);
+    height: 100vh;
+}
+button{
+    font-family: Ubuntu, "sans-serif";
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight:500;
+}
+li{
+    list-style: none;
+    color: $White;
+}
+span{
+    color:$White;
+}
+hr{
+    width: 50%;
+    margin-top:20px;
+}
+h2{
+    text-align: center;
+}
+#lonley{
+    color:#3f4164;
+}
+#trademark{
+    text-align: center;
+    color: rgb(116, 116, 42);
+    background-color: black;
+    padding:0;
+    margin:0;
+}
